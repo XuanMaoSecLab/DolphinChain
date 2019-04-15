@@ -1,5 +1,7 @@
 # DolphinChain
 
+![dolphinchain.logo](./doc/images/dolphinchain.logo.png)
+
 DolphinChain is the first Vulerable Blockchain Application in the world! [dolphinchain.org](http://dolphinchain.org)
 
 Version : 1.0.0

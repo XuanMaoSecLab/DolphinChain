@@ -1,5 +1,7 @@
 # DolphinChain
 
+![dolphinchain.logo](./doc/images/dolphinchain.logo.png)
+
 `DolphinChain` 是世界上第一个区块链应用靶机！[dolphinchain.org](http://dolphinchain.org)
 
 Version : 1.0.0
