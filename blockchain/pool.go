@@ -279,16 +279,9 @@ func (pool *BlockPool) SetPeerHeight(peerID p2p.ID, height int64) {
 	defer pool.mtx.Unlock()
 
 	peer := pool.peers[peerID]
-//  XuanMao: bug fixed
-//  if peer != nil {
-	peer.height = height
-	//  } else {
-	//      peer = newBPPeer(pool, peerID, height)
-	//      peer.setLogger(pool.Logger.With("peer", peerID))
-	//      pool.peers[peerID] = peer
-	//  }
-	
 
+	peer.height = height
+	
 	if height > pool.maxPeerHeight {
 		pool.maxPeerHeight = height
 	}
