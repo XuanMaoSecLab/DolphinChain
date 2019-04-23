@@ -12,7 +12,6 @@ to ensure garbage collection of removed elements.
 */
 
 import (
-	//"fmt" XuanMao: bug fixed
 	"sync"
 )
 
@@ -242,10 +241,8 @@ func (l *CList) Init() *CList {
 func New() *CList { return newWithMax(MaxLength) }
 
 // Return CList with given maxLength.
-// Will panic if list exceeds given maxLength.
 func newWithMax(maxLength int) *CList {
 	l := new(CList)
-//  l.maxLen = maxLength XuanMao: bug fixed
 	return l.Init()
 }
 
